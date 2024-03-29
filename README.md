@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: 3-2
 
-Things you may want to cover:
 
-* Ruby version
+This is a Twitter (X) clone!, It's currently in the early stages of development.
+The goal is to create a simple, easy to use, and fast social media platform.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
