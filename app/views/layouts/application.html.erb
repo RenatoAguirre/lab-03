@@ -6,9 +6,25 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "main" %>
     <%= javascript_importmap_tags %>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   </head>
   <body>
-    <%= yield %>
+    <div class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3" id="nav-col">
+            <%= render 'layouts/navbar' %>
+          </div>
+          <div class="col-6">
+            <%= yield %>
+          </div>
+          <div class="container col d-none d-md-block"  >
+            Copyright © 2024 Y Corp.
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
