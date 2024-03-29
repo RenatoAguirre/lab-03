@@ -12,17 +12,17 @@
   </head>
   <body>
     <div class="content">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3" id="nav-col">
+      <div class="container-lg">
+        <div class="row row-cols-auto ">
+          <div class="col-xs-auto col-sm-auto col-md-auto col-lg-auto" id="nav-col">
             <%= render 'layouts/navbar' %>
           </div>
-          <div class="col-6">
+          <div class="col-md-8 col-sm-10 col-xs-12 d-inline">
             <fieldset>
               <%= yield %>
             </fieldset>
           </div>
-          <div class="container col d-none d-md-block"  >
+          <div class="col-md-2 d-none d-md-block"  >
             <%= render 'layouts/footer' %>
           </div>
         </div>
