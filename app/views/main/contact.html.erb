@@ -17,5 +17,11 @@
     <input type="message" class="form-control" id="exampleInputPassword1" placeholder="Message">
   </div>
   <br>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary" id="submit-button" >Submit</button>
+  <Script>
+    button = document.getElementById('submit-button');
+    button.addEventListener('click', function() {
+      alert("Thank you for your message, we will contact you soon.")
+    });
+  </Script>
 </form>
